@@ -40,7 +40,7 @@ a {
 .navbar .logo {
     display: block;
     float: left;
-    font-size: 1.9em;
+    font-size: 1.8em;
     padding: 10px 20px;
     text-decoration: none;
   }
@@ -113,7 +113,7 @@ a {
     top: 0;
 }
     
-@media (min-width: 48em) {
+@media (min-width: 53em) {
     .navbar li {
       float: left;
     }
