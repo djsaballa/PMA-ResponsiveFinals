@@ -1,8 +1,9 @@
 /* Starting Navigation Bar */
-body{
+body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(245, 237, 237);
+    color: #777;
 }
   
 .navbar a {
@@ -113,7 +114,7 @@ body{
     top: 0;
 }
     
-@media (min-width: 53em) {
+@media (min-width: 45em) {
     .navbar li {
       float: left;
     }
@@ -338,3 +339,73 @@ body .footer {
     }
 }
 /* Ending About Us Page*/
+
+/* Starting Academic Program Page */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.bgimg-1 {
+    background-image: url("/img/academic/sunset.jpg");
+    min-height: 100%;
+  }
+  
+.bgimg-2 {
+    background-image: url("/img/academic/plane.jpg");
+    min-height: 200px;
+}
+  
+.bgimg-3 {
+    background-image: url("/img/academic/gun.jpg");
+    min-height: 200px;
+}
+  
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+  
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+  
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
+  
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
+
+.blue {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: white;
+}
+
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+}
+/* Ending Academic Program Page */
