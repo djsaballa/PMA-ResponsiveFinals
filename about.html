@@ -6,6 +6,94 @@
       <title>Philippine Military Academy</title>
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
       <link rel="stylesheet" href="/styles/styles.css"> 
+      <style>
+          .parallax {
+              background-image: url('../img/about/plane.jpg');
+              min-height: 690px;
+              position: relative;
+              background-attachment:fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
+
+          .parallax2 {
+              background-image: url('../img/about/lineup.jpg');
+              min-height: 500px; 
+              position: relative;
+              background-attachment:fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
+
+          .title1 {
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              font-size: 80px;
+              text-align: center;
+              position: absolute;
+              z-index: 500;
+              top: 30%;
+              color: #fff;
+          }
+
+          .title2 {
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              font-size: 70px;
+              text-align: center;
+              position: absolute;
+              z-index: 500;
+              top: 40%;
+              width: 100%;
+              color: #fff;
+          }
+
+          .content {
+              font-size: 20px;
+              background-color:rgba(255, 255, 255, 0) ;   
+          }
+
+          .text1 {
+              height: 100%;
+              text-align: center;
+              margin-left: 17%;
+              width: 70%;
+              line-height: 1.8em;
+              padding: 5px;
+          }
+
+          .text2 {
+              height: 100%;
+              text-align: center;
+              margin-left: 17%;
+              width: 70%;
+              line-height: 1.8em;
+              padding: 5px;
+          }
+
+          .hr-top {
+              background-color: rgb(8, 8, 8);
+              width: 30%;
+              padding: 2px;
+              margin-top: 50px;
+          }
+
+          .hr-bottom {
+              background-color: rgb(8, 8, 8);
+              width: 30%;
+              padding: 2px;
+              margin-bottom: 50px;
+          }
+
+          @media (max-width:600px){
+              .parallax, .parallax2 {
+                  background-attachment: scroll;
+              }
+              .title1, .title2 {
+                  top: 20%;
+              }
+          }
+      </style>
     </head>
   <body>
       <!-- Starting Navigation Bar -->
@@ -83,10 +171,11 @@
         <div class="row">
           <div class="column">
               <p><a href="/mav.html"><strong>Mission And Vision</strong></a></p>
-              <p><a href="/super.html"><strong>Superintendent</strong></a></p>
-              <p><a href="/del-pilar.html"><strong>Del Pilar Page</a></p>
+              <p><a href="/del-pilar.html"><strong>Del Pilar Page</strong></a></p>
+              <p><a href="/history.html"><strong>History</strong></a></p>
               <p><a href="/military.html"><strong>Military Program</strong></a>
               <p><a href="/academic.html"><strong>Academic Program</strong></a></p>
+              <p><a href="/cadet.html"><strong>Cadet Life</strong></a></p>
               <p><a href="/gallery.html"><strong>Gallery</strong></a></p>
               <p><a href="/videos.html"><strong>Videos</strong></a></p>
           </div>

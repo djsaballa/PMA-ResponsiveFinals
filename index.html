@@ -6,6 +6,103 @@
       <title>Philippine Military Academy</title>
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
       <link rel="stylesheet" href="/styles/styles.css"> 
+      <style>
+        #col-content {
+          float: left;
+          width: 50%;
+          padding-left: 10px;
+          padding-right: 10px;
+          text-align: center;
+        }
+
+        #row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        #col-content .left {
+          height: 25%;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          border: 3px solid black;
+        }
+
+        #col-content .right {
+          border: 3px solid black;
+          padding-top: 15px;
+          padding-bottom: 10px;
+        }
+
+        #bottom:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        #gallery {
+          width: 25%;
+          float: left;
+          padding-left: 10px;
+          padding-right: 10px;
+          text-align: center;
+        }
+
+        #bottom {
+          border: 3px solid black;
+        }
+
+        #bottom #gallery p {
+          height: 50px;
+          text-align: center;
+          border: 2px solid black;
+          padding: 5px;
+        }
+        
+        #spacing {
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+
+        #bot-content #spacing {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+
+        @media screen and (max-width: 900px) {
+          #col-content {
+            width: 100%;
+          }
+
+          #gallery {
+            width: 100%;
+          }
+        }
+
+        .link a {
+          text-decoration: none;
+          background: black;
+          color: white;
+          padding: 7px;
+          border-radius: 6px;
+        }
+
+        a:link {
+          text-decoration: none;
+        }
+  
+        a:visited {
+          text-decoration: none;
+        }
+  
+        a:hover {
+          text-decoration: none;
+        }
+  
+        a:active {
+          text-decoration: none;
+        }
+      </style>
     </head>
   <body>
       <!-- Starting Navigation Bar -->
@@ -32,15 +129,149 @@
       </div>   
       <!-- Ending Carousel -->
 
+      <div id="row">
+        <div id="col-content">
+          <div id="spacing">
+            <div class="left">
+              <h3>About Us</h3>
+                <p>
+                  The Philippine Military Academy  is the 
+                  <br>
+                  premier military academy for Filipinos aspiring 
+                  <br>
+                  for a commission as a military officer of 
+                  <br>
+                  the Armed Forces of the Philippines (AFP).
+                </p>
+              <p class="link"><a href="/about.html">See more...</a></p>
+            </div>
+          </div>
+          <div id="spacing">
+            <div class="left">
+              <h3>Military Program</h3>
+                <p>
+                  This program is headed by the Commandant of 
+                  <br>
+                  Cadets and is responsible for the professional
+                  <br>
+                  military training, character development, 
+                  <br>
+                  leadership, and physical training of the cadets.
+                </p>
+              <p class="link"><a href="/military.html">See more...</a></p>
+            </div>
+          </div>
+          <div id="spacing">
+            <div class="left">
+              <h3>Academic Program</h3>
+                <p>
+                  Headed by the Dean of Academics, the Academic
+                  <br>
+                  Program has both military and civilian male
+                  <br>
+                  and female instructors. It has the following
+                  <br>
+                  seven departments:
+                </p>
+              <p class="link"><a href="/academic.html">See more...</a></p>
+            </div>
+          </div>
+          <div id="spacing">
+            <div class="left last">
+              <h3>Admission Requirements</h3>
+                <p>
+                  •	Natural Born Filipino Citizen
+                  <br>
+                  •	Physically fit and of good moral character
+                </p>
+              <p class="link"><a href="/admission.html">See more...</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div id="col-content">
+          <div id="spacing">
+            <div class="right">
+              <img src="/img/home/history.JPG" alt="" width="400px">
+              <h3>History</h3>
+                <p>
+                  An Officer's School of the Philippine Constabulary 
+                  <br>
+                  was established on February 17, 1905 within the 
+                  <br>
+                  walls of Intramuros in Manila.[15] This school was
+                  <br>
+                  relocated to Baguio on September 1, 1908, at Camp
+                  <br>
+                  Henry Allen where it would stay for many years to come.
+                </p>
+              <p class="link"><a href="/history.html">See more...</a></p>
+            </div>
+          </div>
+          <div id="spacing">
+            <div class="right">
+              <h3>Orgainzations</h3>
+              <a href="https://www.afp.mil.ph/" style="padding: 10px;">
+                <img src="/img/afp.png" alt="AFP logo" width="100px" height="100px">
+              </a>
+              <a href="https://www.army.mil.ph/home/" style="padding: 10px;">
+                <img src="/img/tank.png" alt="Philipine Army logo" width="100px" height="100px">
+              </a>
+              <br>
+              <a href="https://www.paf.mil.ph/" style="padding: 10px;">
+                <img src="/img/air.png" alt="Philipine Air Forces logo" width="100px" height="100px">
+              </a>
+              <a href="https://navy.mil.ph/" style="padding: 10px;">
+                <img src="/img/ship.png" alt="Philipine Navy logo" width="100px" height="100px">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="bot-content">
+        <div id="spacing">
+          <div id="bottom">
+            <h3 style="padding-left: 40px;">Gallery</h3>
+            <div id="gallery">
+              <img src="/img/home/gallery1.jpg" alt="" width="200px" height="200px">
+                <p>
+                  Detail of parapet of Melchor Hall, PMA
+                </p>
+            </div>
+            <div id="gallery">
+              <img src="/img/home/gallery2.JPG" alt="" width="200px" height="200px">
+                <p>
+                  Graduating PMA cadets
+                </p>
+            </div>
+            <div id="gallery">
+              <img src="/img/home/gallery3.jpg" alt="" width="200px" height="200px">
+                <p>
+                  Flowers on the grounds of the PMA campus
+                </p>
+            </div>
+            <div id="gallery">
+              <img src="/img/home/gallery4.JPG" alt="" width="200px" height="200px">
+                <p>
+                  Barong dagger of Mujib Susukan,
+                </p>
+            </div>
+            <p class="link" style="text-align: right; padding-right: 20px;"><a href="/gallery.html">See more...</a></p>
+          </div>
+        </div>
+      </div>
+
       <!-- Starting Footer -->
       <div class="footer">
         <div class="row">
           <div class="column">
               <p><a href="/mav.html"><strong>Mission And Vision</strong></a></p>
-              <p><a href="/super.html"><strong>Superintendent</strong></a></p>
               <p><a href="/del-pilar.html"><strong>Del Pilar Page</strong></a></p>
+              <p><a href="/history.html"><strong>History</strong></a></p>
               <p><a href="/military.html"><strong>Military Program</strong></a>
               <p><a href="/academic.html"><strong>Academic Program</strong></a></p>
+              <p><a href="/cadet.html"><strong>Cadet Life</strong></a></p>
               <p><a href="/gallery.html"><strong>Gallery</strong></a></p>
               <p><a href="/videos.html"><strong>Videos</strong></a></p>
           </div>
