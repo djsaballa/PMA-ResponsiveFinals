@@ -6,6 +6,109 @@
       <title>Philippine Military Academy</title>
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
       <link rel="stylesheet" href="/styles/styles.css"> 
+      <style>
+          body, html {
+            height: 100%;
+            font: 17px/1.8 "Lato", sans-serif;
+            color: black;
+          }
+
+          .bgimg-1 {
+            position: relative;
+            opacity: 0.80;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;  
+          }
+
+          .bgimg-1 {
+            background-image: url("/img/military/top.jpg");
+            min-height: 100%;
+          }
+
+          .caption {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+          }
+            
+          .caption span.border {
+            background-color: #111;
+            color: #fff;
+            padding: 18px;
+            font-size: 20px;
+            letter-spacing: 10px;
+          }
+
+          #col-content {
+            float: left;
+            width: 50%;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: center;
+          }
+
+          #row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+          #col-content .left {
+            height: 25%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: 3px solid black;
+          }
+
+          #col-content .right {
+            border: 3px solid black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+          }
+
+          #spacing {
+            padding-top: 10px;
+            padding-bottom: 10px;
+          }
+
+          .bottom {
+            border: 3px solid black;
+            text-align: center;
+            margin-left: 25%;
+            width: 50%;
+          }
+
+          #bot-content #spacing {
+          padding-left: 10px;
+          padding-right: 10px;
+          text-align: center;
+          }
+
+          hr {
+            background-color: rgb(8, 8, 8);
+            width: 40%;
+            padding: 1;
+            margin-top: 20px;
+          }
+
+          @media screen and (max-width: 980px) {
+            #col-content {
+              width: 100%;
+            }
+            .bottom {
+              width: 100%;
+              margin-left: 0%;
+            }
+            .bgimg-1 {
+              background-attachment: scroll;
+            }
+          }
+      </style>
     </head>
   <body>
       <!-- Starting Navigation Bar -->
@@ -18,7 +121,124 @@
           <li><a href="/admission.html">Admission</a></li>
         </ul>
       </header>
-       <!-- Ending Navigation Bar -->
+       <!-- Ending Navigation Bar -->  
+
+       <div class="bgimg-1">
+        <div class="caption">
+        <span class="border">MILITARY PROGRAM</span>
+          <div style="color: white;text-align:center;padding:10px 80px; font-size: 16px;">
+            <p>
+              This program is headed by the Commandant of Cadets and is responsible for the professional 
+              military training, character development, leadership, and physical training of the cadets. 
+              The mission of the Tactics Group is likewise carried out by the tactical officers who are 
+              responsible for the different companies of the Cadet Corps. This group is made up of the following
+              departments:
+            </p>
+          </div>
+        </div> 
+      </div>
+
+      <div id="row">
+        <div id="col-content">
+          <div id="spacing">
+            <div class="left">
+              <h3>DEPARTMENT OF LEADERSHIP DEVELOPMENT</h3>
+              <hr>
+                <p>
+                  The task of this department is "To instruct,
+                  <br>
+                  train and develop the cadets so that each graduate
+                  <br>
+                  shall possess the character, the professionalism 
+                  <br>
+                  and the aptitude required of a regular officer
+                  <br>
+                  of the Armed Forces of the Philippines."
+                </p>
+            </div>
+          </div>
+          <div id="spacing">
+            <div class="left">
+              <h3>DEPARTMENT OF GROUND WARFARE</h3>
+              <hr>
+                <p>
+                  The task of this department is "To train, 
+                  <br>
+                  develop and instruct each cadet the essential
+                  <br>
+                  knowledge, attitude and basic skills in the
+                  <br>
+                  art of ground warfare in order to prepare them
+                  <br>
+                  with desirable character traits and leadership
+                  <br>
+                  attributes vital to the army."
+                </p>
+            </div>
+          </div>
+        </div>
+
+          <div id="col-content">
+            <div id="spacing">
+              <div class="right">
+                <h3>DEPARTMENT OF PHYSICAL EDUCATION</h3>
+                <hr>
+                <p>
+                  This department is tasked "To equip the cadets 
+                  <br>
+                  with the basic knowledge and skills in sports, 
+                  <br>
+                  the required physical and motor fitness and the 
+                  <br>
+                  inherent values necessary for a future officer in
+                  <br>
+                  the Armed Forces of the Philippines."
+                </p>
+            </div>
+          </div>
+            <div id="spacing">
+              <div class="right">
+                <h3>DEPARTMENT OF AIR WARFARE</h3>
+                <hr>
+                  <p>
+                    The task of this department is "To train and 
+                    <br>
+                    develop aviation cadets so that each graduate
+                    <br>
+                    shall have the optimum knowledge and skills to 
+                    <br>
+                    perform his duties and responsibilities normally 
+                    <br>
+                    assigned to a squadron grade officer of the 
+                    <br>
+                    Philippine Air Force."
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="bot-content">
+          <div id="spacing">
+            <div class="bottom">
+              <h3>DEPARTMENT OF NAVAL WARFARE</h3>
+              <hr>
+                <p>
+                  This department is tasked "To train and instruct 
+                  <br>
+                  the midshipmen on the arts and sciences of the 
+                  <br>
+                  naval profession and develop their character and 
+                  <br>
+                  leadership traits to become effective officers of
+                  <br>
+                  the Philippine Navy."
+                </p>
+                <br>
+            </div>
+          </div>
+        </div>
+      </div>
 
        <!-- Starting Footer -->
       <div class="footer">
