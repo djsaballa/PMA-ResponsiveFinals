@@ -229,7 +229,7 @@ body .footer {
     background-color: black;
 }
   
-.column {
+.footer .column {
     float: left;
     width: 33.33%;
     padding: 25px;

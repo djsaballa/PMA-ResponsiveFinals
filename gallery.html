@@ -6,10 +6,59 @@
       <title>Philippine Military Academy</title>
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
       <link rel="stylesheet" href="/styles/styles.css"> 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Make the image fully responsive */
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .gallery .row .column {
+        float: left;
+        width: 33.33%;
+        padding: 20px;
+        flex: 50%;
+      }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .gallery .row .column p {
+        color: black;
+        height: 50px;
+        text-align: center;
+        padding: 5px;
+        font-size: 20px;      
+        }
+
+    h1 {
+        color:black;
+        padding: 5px;
+        font-size: 35px;
+        letter-spacing: 10px;
+        text-align: center;      
+    }
+
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 500px) {
+      .column {
+        width: 100%;
+      }
+    }
+      </style>
     </head>
   <body>
       <!-- Starting Navigation Bar -->
-      <header class="navbar">
+      <header class="navbar" style="position: fixed;">
         <a href="index.html" class="logo">Philippines Military Academy</a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
@@ -19,7 +68,65 @@
         </ul>
       </header>
        <!-- Ending Navigation Bar -->
+       <div id="carousel">
+        <div class="carousel-container slide">
+          <img src="/img/gallery/carousel/car1.jpg" alt="Carousel Pic 1" style="height: 900px;">
+          <img src="/img/gallery/carousel/car2.jpg" alt="Carousel Pic 2" style="height: 900px;">
+          <img src="/img/gallery/carousel/car3.jpg" alt="Carousel Pic 3" style="height: 900px;">
+          <img src="/img/gallery/carousel/car2.jpg" alt="Carousel Pic 2" style="height: 900px;">
+          <img src="/img/gallery/carousel/car1.jpg" alt="Carousel Pic 1" style="height: 900px;">
+        </div>
+      </div>   
+      
+        <div class="header">
+          <h1>GALLERY</h1>
+        </div>
 
+      <div class="gallery">
+        <div class="row">
+          <div class="column">
+            <img src="img/gallery/pma-gallery1.jpg" alt="Detail of parapet of Melchor Hall, PMA" style="width:100%">
+            <p>
+              Detail of parapet of Melchor Hall, PMA
+            </p>
+          </div>
+          
+          <div class="column">
+            <img src="img/gallery/graduating-gallery.jfif" alt="Graduating PMA cadets" style="width:100%">
+            <p>
+                Graduating PMA cadets
+              </p>
+          </div>
+        
+          <div class="column">
+            <img src="img/gallery/Pmaflowers-gallery.jpg" alt=" Flowers on the grounds of the PMA campus" style="width:100%">
+            <p>
+              Flowers on the grounds of the PMA campus
+            </p>
+          </div> 
+          
+          <div class="column"> 
+            <img src="img/gallery/shaku-gallery.jpg" alt="Shaku-landmark" style="width:100%">
+            <p>
+                Shaku Philippine Military Academy Landmark
+            </p>
+          </div>
+        
+          <div class="column">
+            <img src="img/gallery/dagger-gallery.jfif" alt="Barong dagger of Mujib Susukan" style="width:100%">
+            <p>
+                Barong dagger of Mujib Susukan
+              </p>
+          </div>
+        
+          <div class="column">
+            <img src="img/gallery/uniform-gallery.jpg" alt="PMA Uniform" style="width:100%">
+            <p>
+            Philippine Military Academy Landmark Uniform
+            </p>
+          </div>
+        </div>
+      </div>
        <!-- Starting Footer -->
       <div class="footer">
         <div class="row">
@@ -31,7 +138,6 @@
               <p><a href="/academic.html"><strong>Academic Program</strong></a></p>
               <p><a href="/cadet.html"><strong>Cadet Life</strong></a></p>
               <p><a href="/gallery.html"><strong>Gallery</strong></a></p>
-              <p><a href="/videos.html"><strong>Videos</strong></a></p>
           </div>
           <div class="column">
               <p>
