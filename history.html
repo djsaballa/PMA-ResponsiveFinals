@@ -6,6 +6,88 @@
       <title>Philippine Military Academy</title>
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
       <link rel="stylesheet" href="/styles/styles.css"> 
+      <style>
+          * {
+            box-sizing: border-box;
+          }
+          
+          body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+          }
+          
+          /* Float four columns side by side */
+          .column {
+            float: left;
+            width: 20%;
+            padding: 0 10px;
+            color: black;
+          }
+          
+          /* Remove extra left and right margins, due to padding */
+          .row {
+          margin: 0 -5px;
+          padding-right: 10%;
+          padding-left: 10%;
+          }
+          
+          
+          /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          
+          /* Responsive columns */
+          @media screen and (max-width: 1000px) {
+            .column {
+              width: 100%;
+              display: block;
+              margin-bottom: 20px;
+            }
+          }
+          
+          .float-right {
+            float: right;
+            padding-right: 15%;   
+            padding-left: 20px;
+          }
+
+          .float-left {
+            float: left;
+            padding-right: 20px;
+          }
+          .paragraph {
+            padding-right: 15%;
+            padding-left: 15%;
+            font-family: sans-serif;
+          }
+
+        /* Style the counter cards */
+          .card {
+            padding: 24px;
+            text-align: center;
+            background-color: rgb(14, 4, 4); 
+          }
+          
+          h1 {
+            padding-left: 15%;
+          }
+          
+          .inner-border {
+            border: 2.5px solid gold;
+            color: gold;
+          }
+          
+          .text-color {
+            color: white;
+          }
+          
+          .head-border {
+              border: 5px solid gold;
+          }
+    </style>
     </head>
   <body>
       <!-- Starting Navigation Bar -->
@@ -19,6 +101,98 @@
         </ul>
       </header>
        <!-- Ending Navigation Bar -->
+
+        <div class="head-border">
+          <img src="img/history/pma-history.jpg" alt="PMA history" style="width:100%; padding-top: 50px;">
+        </div>
+        
+        <h1>Notable Alumni</h1>
+        
+        <div class="row">
+          <div class="column">
+            <div class="card">
+             <div class="inner-border">
+                 <br>
+                <img src="img/history/notable1.jpg" alt="Paulino Santos" width="120" height="147">
+                <div class="text-color">
+                  <p>Paulino Santos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <div class="inner-border">
+                  <br>
+                <img src="img/history/notable2.png" alt="Ramon Alcaraz" width="120" height="147">
+                <div class="text-color">
+                  <p>Ramon Alcaraz</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <div class="inner-border">
+                  <br>
+                <img src="img/history/notable3.jpg" alt="Jose Concepcion Sr." width="120" height="147">
+                <div class="text-color">
+                  <p>Jose Concepcion Sr.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <div class="inner-border">
+                  <br>
+                <img src="img/history/notable4.jpg" alt="Delfin Castro" width="120" height="147">
+                <div class="text-color">
+                  <p>Delfin Castro</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <div class="inner-border">
+                  <br>
+                <img src="img/history/notable5.jpg" alt="Rodolfo Biazon" width="120" height="147">
+                  <div class="text-color">
+                    <p>Rodolfo Biazon</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="between"></div>
+          <h1>History</h1>
+        <div class="float-right">
+            <img src="img/history/1024px-PMA_Melchor_Hall_Facade.jfif" alt="Melchor Hall Facade" width="440" height="230">
+        </div>
+        
+        
+        <div class="paragraph">
+          <p>An Officer's School of the Philippine Constabulary was established on February 17, 1905 within the walls of Intramuros in Manila.[15] This school was relocated to Baguio on September 1, 1908, at Camp Henry Allen where it would stay for many years to come.</p>
+          <p>On a Monday, October 23, 1916, immediately after assuming his position as senator representing Mindanao and Sulu, Senator Hadji Butu Abdul Baqui sponsored his first bill, Senate Bill No. 9 creating a law establishing a military academy and requiring military education in colleges and universities. On the same day, he also sponsored Senate Bill No. 10 creating a law to establish a naval academy. (From Senate Diaries of the 4th Philippine Legislature, Volume 1, page 32, October 1916, original copy (in Spanish) at Adams Building, U.S. Library of Congress, from research work of Dr. Abraham T. Rasul, Jr., Washington DC). On February 9, 1917, US President Woodrow Wilson, in an article written in the Buffalo Enquirer mentioned "military or naval training will be a good thing for the young men of the country" and congratulated Senator Hadji Butu "for being the first among those in the upper house to introduce the measures for their establishment".</p>
+          <p>After the Philippine Legislature passed Act No. 3496 on September 8, 1926, the school was renamed the Philippine Constabulary Academy and courses were lengthened from nine months to three years. Just as the PC started with American and Filipino officers, the school had American and Filipino officer cadets in its student body.</p>
+          <div class="float-left">
+              <img src="img/history/pma-paragraph.jpg" alt="PMA Baguio" width="440" height="300">
+          </div>
+        </div>
+
+        <div class="paragraph">
+          <p>When the National Defense Act was approved on December 21, 1935, the Philippine Constabulary Academy was renamed Philippine Military Academy and was permitted to grant its graduates Bachelor of Science degrees after completion of their four-year curriculum.[16] PMA was modeled after the United States Military Academy with officers from the Philippine Scouts and regular United States Army as instructors and members of the general staff.[17][18] PMA Class of 1940, with 79 graduates, was the pioneer batch to complete four years of training. Quirico Evangelista and Reynaldo Mendoza of Class '40 composed the PMA alma mater song, "PMA, Oh Hail to Thee."</p>
+          <p>With the outbreak of the Second World War, training was disrupted at the PMA with Classes 1942 and 1943 being graduated prematurely and assigned to combat units in Bataan and other parts of the country. Many of these young officers perished in the war.</p>
+          <p>After the war, the Academy was reopened on May 5, 1947, at Camp Henry T. Allen in Baguio. But due to its increasing need for larger grounds, it was soon moved to its present location at Fort General Gregorio H. del Pilar, Loakan, some ten kilometers from downtown Baguio.[citation needed] The main building, Melchor Hall, was completed in 1949 under the supervision of military engineer Lt. Pacifico C. Cabrera, a decorated WWII hero, who later as a full colonel, became Chief of Engineers of the AFP. During the 1960s, as a need for more well-rounded individuals was found to be desirable, and socio-humanistic courses were added to the school's curriculum.</p>
+          <p>1993 proved a momentous year for the PMA as its first female cadets were admitted and specialization based on branch-of-service was introduced into the curriculum. The first female cadets graduated from the Academy in 1997.</p>
+          <p>In 1998, a proclamation by the President of the Philippines, while acknowledging the academy's traditional roots lay with the 1905 founding of the Philippine Constabulary school, changed the official celebration day of the academy to October 25, in honour of the Academia Militar which was established on October 25, 1898 in Malolos, Bulacan.[15] Other sources have since acknowledged this change.[19][20] The Academia Militar was opened during the establishment of the insurgent First Philippine Republic. It was closed on January 20, 1899, before the Philippine–American War and thus was the first ever all-Filipino military academy to be established.</p>
+        </div>
 
        <!-- Starting Footer -->
       <div class="footer">
