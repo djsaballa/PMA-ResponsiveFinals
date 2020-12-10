@@ -35,6 +35,11 @@ body {
 .navbar li a:hover,
 .navbar .menu-btn:hover {
     background-color: rgb(49, 49, 49);
+    color: gold;
+}
+
+.navbar .logo:hover {
+    color: gold;
 }
   
 .navbar .logo {
@@ -241,6 +246,10 @@ body .footer {
     content: "";
     display: table;
     clear: both;
+}
+
+.footer a:hover {
+    color: gold;
 }
     
 @media screen and (max-width:1000px) {
