@@ -7,7 +7,7 @@
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
       <link rel="stylesheet" href="/styles/styles.css"> 
       <style>
-        #col-content {
+        .col-content {
           float: left;
           width: 50%;
           padding-left: 10px;
@@ -15,32 +15,32 @@
           text-align: center;
         }
 
-        #row:after {
+        .row:after {
           content: "";
           display: table;
           clear: both;
         }
 
-        #col-content .left {
+        .col-content .left {
           height: 25%;
           padding-top: 10px;
           padding-bottom: 10px;
           border: 3px solid black;
         }
 
-        #col-content .right {
+        .col-content .right {
           border: 3px solid black;
           padding-top: 15px;
           padding-bottom: 10px;
         }
 
-        #bottom:after {
+        .bottom:after {
           content: "";
           display: table;
           clear: both;
         }
 
-        #gallery {
+        .gallery {
           width: 25%;
           float: left;
           padding-left: 10px;
@@ -48,33 +48,33 @@
           text-align: center;
         }
 
-        #bottom {
+        .bottom {
           border: 3px solid black;
         }
 
-        #bottom #gallery p {
+        .bottom .gallery p {
           height: 50px;
           text-align: center;
           border: 2px solid black;
           padding: 5px;
         }
         
-        #spacing {
+        .spacing {
           padding-top: 10px;
           padding-bottom: 10px;
         }
 
-        #bot-content #spacing {
+        .bot-content .spacing {
           padding-left: 10px;
           padding-right: 10px;
         }
 
         @media screen and (max-width: 900px) {
-          #col-content {
+          .col-content {
             width: 100%;
           }
 
-          #gallery {
+          .gallery {
             width: 100%;
           }
         }
@@ -129,9 +129,9 @@
       </div>   
       <!-- Ending Carousel -->
 
-      <div id="row">
-        <div id="col-content">
-          <div id="spacing">
+      <div class="row">
+        <div class="col-content">
+          <div class="spacing">
             <div class="left">
               <h3>About Us</h3>
                 <p>
@@ -146,7 +146,7 @@
               <p class="link"><a href="/about.html">See more...</a></p>
             </div>
           </div>
-          <div id="spacing">
+          <div class="spacing">
             <div class="left">
               <h3>Military Program</h3>
                 <p>
@@ -161,7 +161,7 @@
               <p class="link"><a href="/military.html">See more...</a></p>
             </div>
           </div>
-          <div id="spacing">
+          <div class="spacing">
             <div class="left">
               <h3>Academic Program</h3>
                 <p>
@@ -176,7 +176,7 @@
               <p class="link"><a href="/academic.html">See more...</a></p>
             </div>
           </div>
-          <div id="spacing">
+          <div class="spacing">
             <div class="left last">
               <h3>Admission Requirements</h3>
                 <p>
@@ -189,8 +189,8 @@
           </div>
         </div>
 
-        <div id="col-content">
-          <div id="spacing">
+        <div class="col-content">
+          <div class="spacing">
             <div class="right">
               <img src="/img/home/history.JPG" alt="" width="400px">
               <h3>History</h3>
@@ -208,7 +208,7 @@
               <p class="link"><a href="/history.html">See more...</a></p>
             </div>
           </div>
-          <div id="spacing">
+          <div class="spacing">
             <div class="right">
               <h3>Orgainzations</h3>
               <a href="https://www.afp.mil.ph/" style="padding: 10px;">
@@ -229,29 +229,29 @@
         </div>
       </div>
 
-      <div id="bot-content">
-        <div id="spacing">
-          <div id="bottom">
+      <div class="bot-content">
+        <div class="spacing">
+          <div class="bottom">
             <h3 style="padding-left: 40px;">Gallery</h3>
-            <div id="gallery">
+            <div class="gallery">
               <img src="/img/home/gallery1.jpg" alt="" width="200px" height="200px">
                 <p>
                   Detail of parapet of Melchor Hall, PMA
                 </p>
             </div>
-            <div id="gallery">
+            <div class="gallery">
               <img src="/img/home/gallery2.JPG" alt="" width="200px" height="200px">
                 <p>
                   Graduating PMA cadets
                 </p>
             </div>
-            <div id="gallery">
+            <div class="gallery">
               <img src="/img/home/gallery3.jpg" alt="" width="200px" height="200px">
                 <p>
                   Flowers on the grounds of the PMA campus
                 </p>
             </div>
-            <div id="gallery">
+            <div class="gallery">
               <img src="/img/home/gallery4.JPG" alt="" width="200px" height="200px">
                 <p>
                   Barong dagger of Mujib Susukan,
@@ -266,7 +266,7 @@
       <div class="footer">
         <div class="row">
           <div class="column">
-              <p><a href="/mav.html"><strong>Mission And Vision</strong></a></p>
+              <p><a href="/super.html"><strong>Superintendent</strong></a></p>
               <p><a href="/del-pilar.html"><strong>Del Pilar Page</strong></a></p>
               <p><a href="/history.html"><strong>History</strong></a></p>
               <p><a href="/military.html"><strong>Military Program</strong></a>
